@@ -1,0 +1,17 @@
+h3
+{
+    font-size: medium;
+}
+
+canvas{
+   animation-name: colours;
+   animation-duration: 5s;
+   animation-iteration-count: infinite; 
+}
+
+@keyframes colours {
+
+    from{box-shadow: 1px 1px 39px rgba(red, green, blue, alpha);}
+    to{box-shadow: 1px 1px 39px orange;}
+    
+}
